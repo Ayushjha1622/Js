@@ -47,17 +47,17 @@
 // console.log(arr);
 
 
-// let arr = [1,2,3,4,5,6,7,8,9];
+let arr = [1,2,3,4,5,6,7,8,9];
 
-// arr.map((number,index) => {
-//     console.log(number);
-//     console.log(index);
-// })
-// let ansArray = arr.map((number) =>{
-//     return number*number;
-// })
+arr.map((number,index) => {
+    console.log(number);
+    console.log(index);
+})
+let ansArray = arr.map((number) =>{
+    return number*number;
+})
 
-// console.log(ansArray);
+console.log(ansArray);
 
 
 // let arr = [10,23,4,5,6,7,34,67];
